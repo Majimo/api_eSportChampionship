@@ -1,0 +1,96 @@
+/* Général ------------------------------------------------------------------------------------- */
+body, p, legend, label, input {
+	/* font: normal 8pt verdana, helvetica, sans-serif; */
+	font-family: 'Quicksand', sans-serif;
+	font-size: 14px;
+}
+
+fieldset {
+	padding: 20px;
+	border: 1px blue solid;
+	margin-right: 60rem;
+	margin-left: 41rem;
+	margin-top: 5rem;
+}
+
+#inscription {
+	margin-left: 41rem;
+	margin-top: 5rem;
+}
+
+legend {
+	font-weight: bold;
+	color: blue;
+}
+
+/* Inscription --------------------------------------------------------------------------------------- */
+h1 {
+	text-align: center;
+}
+
+p {
+	/* margin-left: 112px; */
+	text-align: center;
+	margin-right: 315px;
+}
+
+.text-center {
+	margin-right: 156px;
+	margin-top: 25px;
+}
+
+form label {
+	float: left;
+	width: 219px;
+	margin: 3px 0px 0px 0px;
+}
+
+form input {
+	margin: 3px 3px 0px 67px;
+	border: 1px #999 solid;
+}
+
+form input.sansLabel {
+	margin-left: 498px;
+}
+
+form input.boutonRecherche {
+	margin-left: 20px;
+}
+
+form .requis {
+	color: red;
+}
+
+form .erreur {
+	color: red;
+}
+
+form .succes {
+	color: green;
+}
+
+#avatar {
+	margin-top: 15px;
+}
+
+#file {
+	text-align: center;
+}
+
+#select, select {
+	display: flex;
+}
+
+#listTournoi {
+	margin-left: 14.6rem;
+}
+
+/* Administration --------------------------------------------------------------------------------------- */
+table {
+	border-collapse: collapse;
+}
+
+td, th /* Mettre une bordure sur les td ET les th */ {
+	border: 1px solid black;
+}
